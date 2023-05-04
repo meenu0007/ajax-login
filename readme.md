@@ -1,4 +1,4 @@
-# Commerce9 AjaxLogin Extension
+# Meenu0007 AjaxLogin Extension
 
 Magento 2 extension fot Ajax Login
 

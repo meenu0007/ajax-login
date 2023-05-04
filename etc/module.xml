@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
 <!--
 /**
- * Commerce9 Module for Ajax Login.
+ * Meenu0007 Module for Ajax Login.
  *
- * @category  Commerce9 Module
- * @package   Commerce9_AjaxLogin
+ * @category  Meenu0007 Module
+ * @package   Meenu0007_AjaxLogin
  * @author    Meenu Thomas
  * @copyright Copyright (c)
  */
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
-    <module name="Commerce9_AjaxLogin" setup_version="0.0.1">
+    <module name="Meenu0007_AjaxLogin" setup_version="0.0.1">
     </module>
 </config>

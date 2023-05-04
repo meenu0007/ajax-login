@@ -1,17 +1,17 @@
 <?php
 
 /**
- * Commerce9 Module for Ajax Login.
+ * Meenu0007 Module for Ajax Login.
  *
- * @category  Commerce9 Module
- * @package   Commerce9_AjaxLogin
+ * @category  Meenu0007 Module
+ * @package   Meenu0007_AjaxLogin
  * @author    Meenu Thomas
  * @copyright Copyright (c)
  */
 
 \Magento\Framework\Component\ComponentRegistrar::register(
     \Magento\Framework\Component\ComponentRegistrar::MODULE,
-    'Commerce9_AjaxLogin',
+    'Meenu0007_AjaxLogin',
     __DIR__
 );
 

@@ -11,7 +11,7 @@
     ],
     "authors": [
         {
-          "name": "Commerce9",
+          "name": "Meenu0007",
           "email": "meenuthomas6@gmail.com"
         }
    ],
@@ -20,7 +20,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "Commerce9\\AjaxLogin\\": ""
+            "Meenu0007\\AjaxLogin\\": ""
         }
     }
 }

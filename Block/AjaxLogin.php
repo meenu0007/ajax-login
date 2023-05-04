@@ -1,15 +1,15 @@
 <?php
 /**
- * Commerce9 Module for Ajax Login Block.
+ * Meenu0007 Module for Ajax Login Block.
  *
- * @category  Commerce9 Module
- * @package   Commerce9_AjaxLogin
+ * @category  Meenu0007 Module
+ * @package   Meenu0007_AjaxLogin
  * @author    Meenu Thomas
  * @copyright Copyright (c)
  */
 declare(strict_types=1);
 
-namespace Commerce9\AjaxLogin\Block;
+namespace Meenu0007\AjaxLogin\Block;
 
 use Magento\Framework\App\Http\Context;
 use Magento\Framework\App\RequestInterface;
