@@ -1,0 +1,26 @@
+{
+    "name": "meenu0007/ajax-login",
+    "description": "Ajax Login",
+    "require": {
+        "php": "^7.1.0"
+    },
+    "type": "magento2-module",
+    "version": "0.0.1",
+    "license": [
+        "Commercial"
+    ],
+    "authors": [
+        {
+          "name": "Commerce9",
+          "email": "meenuthomas6@gmail.com"
+        }
+   ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Commerce9\\AjaxLogin\\": ""
+        }
+    }
+}

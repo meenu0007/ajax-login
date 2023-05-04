@@ -1,0 +1,77 @@
+.customer-popup-ajax .modal-inner-wrap{
+    width: 393px !important;
+    margin: auto;
+}
+.customer-popup-ajax .modal-inner-wrap .modal-content{
+    width: auto;
+}
+.customer-popup-ajax .modal-header{
+    background: #fff 0% 0% no-repeat padding-box;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    padding: 2rem 1rem;
+    border-radius: 0;
+}
+.customer-popup-ajax .modal-content{
+    padding: 1rem;
+    background-color: #fff;
+}
+.customer-popup-ajax .modal-content input{
+    background: #fff 0% 0% no-repeat padding-box;
+    border: 1px solid #6e6767 !important;
+    color: #000 !important;
+    padding: 25px 10px;
+}
+.customer-popup-ajax .modal-content .modal-body .form-control {
+    color: #ACACAC !important;
+}
+.customer-popup-ajax input::placeholder{
+    color: #cccccc !important;
+    font-size: 18px !important;
+}
+.customer-popup-ajax .actions-toolbar{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+}
+.customer-popup-ajax .action.login.primary,.customer-popup-ajax .login-sign-up{
+    background-color: #000;
+    color: #FFFFFF;
+    min-height: 46px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 14px !important;
+    transition: 0.5s;
+    text-transform: uppercase;
+    border-color:  #000;
+    width: 100%;
+}
+.customer-popup-ajax .action.login.primary:hover,.customer-popup-ajax .login-sign-up:hover{
+    background-color: #555;
+}
+.customer-popup-ajax .login-sign-up{
+    text-decoration: none;
+    padding: 12px;
+}
+.customer-popup-ajax .login-title {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+.customer-popup-ajax button.action-close{
+    display: none;
+}
+.customer-popup-ajax .modal-header .modal-title{
+    border-bottom : 2px solid #000 !important;
+    font-size: 2.2rem;
+    font-weight: bold;
+    text-align: center;
+    color: #000;
+}
+.customer-popup-ajax .modal-header .modal-title,.customer-popup-ajax input::placeholder{
+    font-family: 'ProximaNova-Regular','Helvetica Neue',Helvetica,Arial,sans-serif !important;
+}

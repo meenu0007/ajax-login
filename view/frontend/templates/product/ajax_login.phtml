@@ -1,0 +1,55 @@
+<?php
+/** @var \Commerce9\AjaxLogin\Block\AjaxLogin $block */
+?>
+<?php
+    $isLoginRequiredToBuy = $block->isLoginRequiredToBuy();
+
+?>
+<?php if (!$block->customerIsAlreadyLoggedIn() && $isLoginRequiredToBuy): ?>
+    <div id="customer-popup-login" class="customer-popup-login">
+        <div class="block block-customer-login">
+            <div class="block-content modal-content" aria-labelledby="block-customer-popup-login-heading">
+                <form class="form form-login"
+                      action="<?php /* @escapeNotVerified */ echo $block->getPostActionUrl() ?>"
+                      method="post"
+                      id="customer-popup-login-form"
+                      data-mage-init='{"validation":{}}'>
+                    <?php echo $block->getBlockHtml('formkey'); ?>
+                    <input type="hidden" name="redirect_url" value="<?php echo $this->getUrl('*/*/*', ['_current' => true, '_use_rewrite' => true]); ?>" />
+                    <fieldset class="fieldset login" data-hasrequired="<?php /* @escapeNotVerified */ echo __('* Required Fields') ?>">
+                        <div class="messages"></div>
+                        <div class="field email required">
+                            <div class="control">
+                                <input name="username" placeholder="E-mail Address*" value="" <?php if ($block->isAutocompleteDisabled()) :?> autocomplete="off"<?php endif; ?> id="email-login" type="email" class="input-text" title="<?php /* @escapeNotVerified */ echo __('Email') ?>" data-validate="{required:true, 'validate-email':true}">
+                            </div>
+                        </div>
+                        <div class="field password required">
+                            <div class="control">
+                                <input name="password"  placeholder="Password*" type="password" <?php if ($block->isAutocompleteDisabled()) :?> autocomplete="off"<?php endif; ?> class="input-text" id="pass-login" title="<?php /* @escapeNotVerified */ echo __('Password') ?>" data-validate="{required:true}" >
+                            </div>
+                        </div>
+                        <div class="actions-toolbar col-sm-12">
+                                <div class="col-sm-6">
+                                    <button type="submit" class="action login primary" name="send" id="send2-login"><span><?php /* @escapeNotVerified */ echo __('Sign In') ?></span></button>
+                                </div>
+                                <div class="col-sm-6">
+                                    <a class="btn login-sign-up" href="<?php echo $block->getUrl('customer/account/create/')?>">
+                                        <?php echo __("Sign Up");?>
+                                    </a>
+                                </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+        <script type="text/x-magento-init">
+            {
+                "#customer-popup-login": {
+                    "Commerce9_AjaxLogin/js/action/customer-authentication-popup": {
+                        "innerWidth": "400"
+                    }
+                }
+            }
+        </script>
+    </div>
+<?php endif; ?>
