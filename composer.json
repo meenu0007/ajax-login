@@ -2,7 +2,7 @@
     "name": "meenu0007/ajax-login",
     "description": "Ajax Login",
     "require": {
-        "php": "^7.1.0"
+        "php": "^7.4.0"
     },
     "type": "magento2-module",
     "version": "0.0.1",
