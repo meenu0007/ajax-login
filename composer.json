@@ -1,5 +1,5 @@
 {
-    "name": "meenu0007/ajax-login",
+    "name": "meenu0007/ajax-login-magento",
     "description": "Ajax Login",
     "require": {
         "php": "^7.4.0"
