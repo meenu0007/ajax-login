@@ -2,7 +2,7 @@
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
         <referenceContainer name="footer">
-            <block   name="footer_assets" after="footer_links" template="Meenu007_ChangeBackground::footer/test.phtml"/>
+            <block   name="footer_assets" after="footer_links" template="Meenu007_AjaxLogin::footer/test.phtml"/>
         </referenceContainer>
     </body>
 </page>
